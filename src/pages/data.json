@@ -1,0 +1,180 @@
+{
+  "about": {
+    "about_me": "I'am a student at ARS University Bandung majoring in Informatics Engineering. Experienced Software Developer with demonstrated history of working in the internet industry. Mastering Backend and Frontend development.",
+    "name": "Hilman Fajri Fahriansyah",
+    "role": "Software Developer",
+    "social_media": [
+      {
+        "url": "https://www.facebook.com/hilman.fajri.9/",
+        "icon": "fab fa-facebook-f"
+      },
+      {
+        "url": "https://www.instagram.com/hilmanfjrsy/",
+        "icon": "fab fa-instagram"
+      },
+      {
+        "url": "http://linkedin.com/in/hilmanfjrsy",
+        "icon": "fab fa-linkedin-in"
+      },
+      {
+        "url": "https://github.com/hilmanfjrsy",
+        "icon": "fab fa-github"
+      }
+    ],
+    "portfolio": [
+      {
+        "total": 1,
+        "icon":"fas fa-globe",
+        "platform": "Website"
+      },
+      {
+        "total": 3,
+        "icon":"fab fa-google-play",
+        "platform": "Android"
+      },
+      {
+        "total": 3,
+        "icon":"fab fa-google-play",
+        "platform": "IOS"
+      },
+      {
+        "total": 5,
+        "icon":"fab fa-google-play",
+        "platform": "Apps Not Published"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "date": "Juli 2020 - Present",
+      "title": "Software Developer",
+      "icon": "fas fa-briefcase",
+      "color": "#173b6c",
+      "location": "PT. Millennia Solusi Informatika",
+      "description": "Build and develop Website, Android and iOS based applications using React Native and React JS framework"
+    },
+    {
+      "date": "Januari 2020 - Juli 2020",
+      "title": "IT Support",
+      "icon": "fas fa-briefcase",
+      "color": "#173b6c",
+      "location": "PT. Bangun Anugerah Jaya Abadi",
+      "description": "Build a local company website using Laravel, Graphic Design, IT support, etc"
+    },
+    {
+      "date": "Januari 2018 - Juli 2019",
+      "title": "CCTV technician",
+      "icon": "fas fa-briefcase",
+      "color": "#173b6c",
+      "location": "PT. Danpra Perkasa Mandiri",
+      "description": "Build and maintain CCTV client infrastructure"
+    },
+    {
+      "date": "2018 - Present",
+      "title": "Informatics Engineering",
+      "icon": "fas fa-graduation-cap",
+      "location": "ARS University",
+      "color": "#007bff",
+      "description": "Bandung, Jawa Barat"
+    },
+    {
+      "date": "2013 - 2016",
+      "title": "Computer and Network Engineering",
+      "icon": "fas fa-graduation-cap",
+      "location": "SMKN 2 Baleendah",
+      "color": "#007bff",
+      "description": "Bandung, Jawa Barat"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "fab fa-php",
+      "color": "rgb(97, 129, 182)",
+      "title": "PHP",
+      "skill": [
+        "PHP Native",
+        "API development with Lumen"
+      ]
+    },
+    {
+      "icon": "fab fa-js-square",
+      "color": "rgb(240, 219, 79)",
+      "title": "Javascript",
+      "skill": [
+        "React Native",
+        "ReactJs",
+        "ES6",
+        "API development with ExpressJs"
+      ]
+    },
+    {
+      "icon": "fas fa-ellipsis-h",
+      "color": "#37b3ed",
+      "title": "Others",
+      "skill": [
+        "SQL (MySQL, PostgreSQL)",
+        "Data Science with Python",
+        "HTML/CSS",
+        "Bootstrap",
+        "Adobe XD",
+        "Desain Grafis"
+      ]
+    }
+  ],
+  "interest": [
+    {
+      "icon": "fas fa-running",
+      "title": "Sports",
+      "interest": "Badminton, Futsal and Cycling"
+    },
+    {
+      "icon": "fas fa-graduation-cap",
+      "title": "Learning",
+      "interest": "All about programming"
+    },
+    {
+      "icon": "fas fa-motorcycle",
+      "title": "Trips",
+      "interest": "Alone or with someone"
+    },
+    {
+      "icon": "fas fa-dollar-sign",
+      "title": "Trading / Invest",
+      "interest": "Of Stock"
+    }
+  ],
+  "awards":[
+    {
+      "date": "29 Agustus 2021",
+      "title": "HTML dan CSS Dasar",
+      "icon": "fas fa-award",
+      "color":"#173b6c",
+      "location": "Hacktiv8 Indonesia",
+      "description": null
+    },
+    {
+      "date": "7 Juli 2021",
+      "title": "Belajar Machine Learning untuk Pemula",
+      "icon": "fas fa-award",
+      "color":"#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    },
+    {
+      "date": "5 Juni 2021",
+      "title": "Memulai Pemrograman Dengan Python",
+      "icon": "fas fa-award",
+      "color":"#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    },
+    {
+      "date": "2 Juni 2021",
+      "title": "Belajar Dasar Visualisasi Data",
+      "icon": "fas fa-award",
+      "color":"#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    }
+  ]
+}

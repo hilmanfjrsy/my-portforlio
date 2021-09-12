@@ -1,0 +1,244 @@
+a {
+  color: #37b3ed;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+.sidebar {
+  background-color: #1d1d1d;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  padding: 10px;
+  background-color: rgba(228, 228, 228, 0.226);
+}
+
+.profile img{
+  width: 100px;
+  height: 100px;
+  object-fit:cover;
+}
+
+.nav-menu {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul li {
+  position: relative;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+.nav-menu a {
+  /* display: flex; */
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #50515e;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a:hover, .nav-menu .active a, .nav-menu li:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  margin-left: 250px;
+}
+
+#hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("https://i.picsum.photos/id/260/1080/720.jpg?hmac=Od-4Vd7U_T6nqy13fTZx4Kw5XO-C8svRhDRbyyWFedY") top center;
+  background-size: cover;
+}
+
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+#hero p span {
+  color: #37b3ed;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#hero .hero-container .social-media a {
+  background-color: white;
+  color: #1d1d1d;
+  margin-right: 10px;
+  border-radius: 50%;
+  font-size: 17px;
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#hero .hero-container .social-media a:hover {
+  background-color: #37b3ed;
+}
+
+#about {
+  min-height: 100vh;
+}
+
+.main h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #173b6c;
+}
+
+.main h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #173b6c;
+}
+
+#experience{
+  min-height: 100vh;
+  background-color: #eaf1fd;
+}
+
+#skill{
+  min-height: 100vh;
+}
+
+#skill .card-skill{
+  background-color: white;
+  box-shadow: 0px 1px 5px 0px #00000020;
+  width: 25%;
+  padding:20px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#skill .card-skill .icon-skill{
+  color: white;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#skill .card-skill p{
+  margin-bottom:0px !important;
+  font-size: 14px;
+  color: #1d1d1d;
+}
+
+#interest{
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  background-color: #37b3ed;
+  color: white;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.flip-card-front i{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+.flip-card-back p{
+  font-weight: bold;
+}
+
+#awards{
+  min-height: 100vh;
+  background-color: #eaf1fd;
+}
+
+#portfolio{
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+#portfolio .card-portfolio p{
+  font-size: 14px;
+  font-weight: bold;
+}
