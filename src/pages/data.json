@@ -24,22 +24,26 @@
     "portfolio": [
       {
         "total": 1,
-        "icon":"fas fa-globe",
+        "color": "#F9627D",
+        "icon": "fas fa-globe",
         "platform": "Website"
       },
       {
         "total": 3,
-        "icon":"fab fa-google-play",
+        "color": "#689f38",
+        "icon": "fab fa-google-play",
         "platform": "Android"
       },
       {
         "total": 3,
-        "icon":"fab fa-google-play",
+        "color": "#1774F1",
+        "icon": "fab fa-app-store-ios",
         "platform": "IOS"
       },
       {
         "total": 5,
-        "icon":"fab fa-google-play",
+        "color": "#69747C",
+        "icon": "fas fa-network-wired",
         "platform": "Apps Not Published"
       }
     ]
@@ -143,12 +147,12 @@
       "interest": "Of Stock"
     }
   ],
-  "awards":[
+  "awards": [
     {
       "date": "29 Agustus 2021",
       "title": "HTML dan CSS Dasar",
       "icon": "fas fa-award",
-      "color":"#173b6c",
+      "color": "#173b6c",
       "location": "Hacktiv8 Indonesia",
       "description": null
     },
@@ -156,7 +160,7 @@
       "date": "7 Juli 2021",
       "title": "Belajar Machine Learning untuk Pemula",
       "icon": "fas fa-award",
-      "color":"#173b6c",
+      "color": "#173b6c",
       "location": "Dicoding Indonesia",
       "description": null
     },
@@ -164,7 +168,7 @@
       "date": "5 Juni 2021",
       "title": "Memulai Pemrograman Dengan Python",
       "icon": "fas fa-award",
-      "color":"#173b6c",
+      "color": "#173b6c",
       "location": "Dicoding Indonesia",
       "description": null
     },
@@ -172,7 +176,7 @@
       "date": "2 Juni 2021",
       "title": "Belajar Dasar Visualisasi Data",
       "icon": "fas fa-award",
-      "color":"#173b6c",
+      "color": "#173b6c",
       "location": "Dicoding Indonesia",
       "description": null
     }

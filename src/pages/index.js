@@ -52,7 +52,7 @@ export default class App extends Component {
         <SideBar >
           <Hero data={data.about} />
           <About about={data.about} />
-          <Portfolio />
+          <Portfolio portfolio={data.about.portfolio} />
           <Experience experience={data.experience} />
           <Skills skills={data.skills} />
           <Interest interest={data.interest} />
