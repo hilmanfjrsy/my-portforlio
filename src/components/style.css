@@ -67,42 +67,34 @@ a:hover {
   margin-left: 250px;
 }
 
-#hero {
+#home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("https://i.picsum.photos/id/260/1080/720.jpg?hmac=Od-4Vd7U_T6nqy13fTZx4Kw5XO-C8svRhDRbyyWFedY") top center;
-  background-size: cover;
+  background: '#f4f4f4';
 }
 
-#hero .hero-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
-}
-
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 54px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #1d1d1d;
 }
 
-#hero p {
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 26px;
-}
-
-#hero p span {
-  color: #37b3ed;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
+#home h4 {
+  color: grey;
+  font-size: 20px;
   font-weight: bold;
 }
 
-#hero .hero-container .social-media a {
-  background-color: white;
-  color: #1d1d1d;
+#home .email {
+  color: #37b3ed;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#home .home-container .social-media a {
+  background-color: #1d1d1d;
+  color: white;
   margin-right: 10px;
   border-radius: 50%;
   font-size: 17px;
@@ -113,9 +105,10 @@ a:hover {
   justify-content: center;
   text-decoration: none;
   transition: 0.3s;
+  margin-top: 20px;
 }
 
-#hero .hero-container .social-media a:hover {
+#home .home-container .social-media a:hover {
   background-color: #37b3ed;
 }
 
@@ -138,9 +131,38 @@ a:hover {
   color: #173b6c;
 }
 
+.sub-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #173b6c;
+}
+
+.sub-title-secondary {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: grey;
+}
+
+.description{
+  color: grey;
+}
+
+.color-primary{
+  color:#37b3ed
+}
+
 #experience{
   min-height: 100vh;
   background-color: #eaf1fd;
+}
+
+#education{
+  min-height: 100vh;
+  background-color: #f8f8f8;
 }
 
 #skill{
