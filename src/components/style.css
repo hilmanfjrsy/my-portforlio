@@ -16,9 +16,46 @@ a:hover {
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .main {
+    margin-left: 0px !important;
+  }
+  #skill .card-skill{
+    min-width: 60%;
+    margin: 20px;
+  }
+  .card-interest{
+    margin: 10px;
+  }
+  .card-portfolio{
+    margin:10px
+  }
+  #portfolio .flex-row{
+    flex-direction: column !important;
+  }
+}
+
 .profile {
   padding: 10px;
   background-color: rgba(228, 228, 228, 0.226);
+}
+
+.container-portfolio{
+  min-height: 100px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.container-portfolio img{
+  width: 180px;
+  margin: 10px;
+  object-fit: cover;
 }
 
 .profile img{
