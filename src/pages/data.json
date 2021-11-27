@@ -3,8 +3,6 @@
     "about_me": "I'am a student at ARS University Bandung majoring in Informatics Engineering. Experienced Software Developer with demonstrated history of working in the internet industry. Mastering Backend and Frontend development.",
     "name": "Hilman Fajri Fahriansyah",
     "role": "Software Developer",
-    "phone": "+62 822 6135 7443",
-    "email": "hilmanfajri24@gmail.com",
     "social_media": [
       {
         "url": "https://www.facebook.com/hilman.fajri.9/",
@@ -74,9 +72,7 @@
       "color": "#173b6c",
       "location": "PT. Danpra Perkasa Mandiri",
       "description": "Build and maintain CCTV client infrastructure"
-    }
-  ],
-  "education": [
+    },
     {
       "date": "2018 - Present",
       "title": "Informatics Engineering",
@@ -95,18 +91,39 @@
     }
   ],
   "skills": [
-    "PHP Native",
-    "API development with Lumen",
-    "React Native",
-    "ReactJs",
-    "ES6",
-    "API development with ExpressJs",
-    "SQL (MySQL, PostgreSQL)",
-    "Data Science with Python",
-    "HTML/CSS",
-    "Bootstrap",
-    "Adobe XD",
-    "Desain Grafis"
+    {
+      "icon": "fab fa-php",
+      "color": "rgb(97, 129, 182)",
+      "title": "PHP",
+      "skill": [
+        "PHP Native",
+        "API development with Lumen"
+      ]
+    },
+    {
+      "icon": "fab fa-js-square",
+      "color": "rgb(240, 219, 79)",
+      "title": "Javascript",
+      "skill": [
+        "React Native",
+        "ReactJs",
+        "ES6",
+        "API development with ExpressJs"
+      ]
+    },
+    {
+      "icon": "fas fa-ellipsis-h",
+      "color": "#37b3ed",
+      "title": "Others",
+      "skill": [
+        "SQL (MySQL, PostgreSQL)",
+        "Data Science with Python",
+        "HTML/CSS",
+        "Bootstrap",
+        "Adobe XD",
+        "Desain Grafis"
+      ]
+    }
   ],
   "interest": [
     {

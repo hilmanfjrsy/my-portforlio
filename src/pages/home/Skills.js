@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TextIcon from '../../components/Atom/TextIcon'
+import CardSkills from '../../components/CardSkills'
 
 export default class Skills extends Component {
     render() {

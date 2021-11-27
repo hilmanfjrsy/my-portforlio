@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import TextIcon from '../../components/Atom/TextIcon';
+import Timeline from '../../components/Timeline'
+import 'react-vertical-timeline-component/style.min.css';
 
 export default class Awards extends Component {
   render() {
