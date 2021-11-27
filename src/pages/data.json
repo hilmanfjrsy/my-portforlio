@@ -131,9 +131,37 @@
     }
   ],
   "awards": [
-      "HTML dan CSS Dasar | Hacktiv8 Indonesia",
-      "Belajar Machine Learning untuk Pemula | Dicoding Indonesia",
-      "Memulai Pemrograman Dengan Python | Dicoding Indonesia",
-      "Belajar Dasar Visualisasi Data | Dicoding Indonesia"
+    {
+      "date": "23 Agustus 2021 - 23 Februari 2022",
+      "title": "React & React Native",
+      "icon": "fas fa-laptop-code",
+      "color": "#173b6c",
+      "location": "Hacktiv8 Indonesia",
+      "description": null
+    },
+    {
+      "date": "7 Juli 2021",
+      "title": "Belajar Machine Learning untuk Pemula",
+      "icon": "fas fa-award",
+      "color": "#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    },
+    {
+      "date": "5 Juni 2021",
+      "title": "Memulai Pemrograman Dengan Python",
+      "icon": "fas fa-award",
+      "color": "#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    },
+    {
+      "date": "2 Juni 2021",
+      "title": "Belajar Dasar Visualisasi Data",
+      "icon": "fas fa-award",
+      "color": "#173b6c",
+      "location": "Dicoding Indonesia",
+      "description": null
+    }
   ]
 }

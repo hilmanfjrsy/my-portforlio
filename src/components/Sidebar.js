@@ -1,5 +1,5 @@
 import React, { Component, useEffect } from 'react';
-import avatar from '../assets/profile.jpg'
+import avatar from '../assets/profile.jpeg'
 import './style.css'
 import {
   Link,
