@@ -9,6 +9,7 @@ import lazuardi from '../../assets/Untitled-5.png'
 export default class Portfolio extends Component {
   render() {
     const data = this.props.portfolio
+    const randomNumber = Math.floor(Math.random() * 6) * 100
     return (
       <>
       <section id="portfolio" className="justify-content-center p-4 d-flex flex-column">
@@ -18,11 +19,11 @@ export default class Portfolio extends Component {
         </div>
       </section>
       <div className="container-portfolio d-flex row">
-        <img src={rakata} />
-        <img src={academy} />
-        <img src={wakool} />
-        <img src={lms} />
-        <img src={lazuardi} />
+        <img src={rakata} data-aos="fade-up" data-aos-delay={randomNumber}/>
+        <img src={academy} data-aos="fade-up" data-aos-delay={randomNumber}/>
+        <img src={wakool} data-aos="fade-up" data-aos-delay={randomNumber}/>
+        <img src={lms} data-aos="fade-up" data-aos-delay={randomNumber}/>
+        <img src={lazuardi} data-aos="fade-up" data-aos-delay={randomNumber}/>
       </div>
       </>
     )
