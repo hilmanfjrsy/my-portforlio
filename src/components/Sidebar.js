@@ -19,7 +19,7 @@ export default class SideBar extends Component {
               <li className="experience" data-aos="fade-up" data-aos-delay="200"><a href="#experience">Experience</a></li>
               <li className="skill" data-aos="fade-up" data-aos-delay="300"><a href="#skill">Skills</a></li>
               <li className="interest" data-aos="fade-up" data-aos-delay="400"><a href="#interest">Interest</a></li>
-              <li className="awards" data-aos="fade-up" data-aos-delay="500"><a href="#awards">Awards</a></li>
+              <li className="awards" data-aos="fade-up" data-aos-delay="500"><a href="#certifications">Certifications</a></li>
             </ul>
           </nav>
         </div>

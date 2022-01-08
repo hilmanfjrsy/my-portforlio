@@ -5,10 +5,10 @@ import 'react-vertical-timeline-component/style.min.css';
 export default class Timeline extends Component {
   render() {
     return (
-      <VerticalTimeline animate={false} layout={'1-column-right'}>
+      <VerticalTimeline animate={true}>
         {this.props.data.map((item, index) => {
           return (
-            <div data-aos="fade-up">
+            // <div data-aos="fade-up">
               <VerticalTimelineElement
                 key={index}
                 className="vertical-timeline-element--work mt-4"
@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                   {item.description}
                 </p>
               </VerticalTimelineElement>
-            </div>
+            // </div>
           )
         })}
       </VerticalTimeline>

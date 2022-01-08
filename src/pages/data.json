@@ -1,17 +1,9 @@
 {
   "about": {
-    "about_me": "I'am a student at ARS University Bandung majoring in Informatics Engineering. Experienced Software Developer with demonstrated history of working in the internet industry. Mastering Backend and Frontend development.",
+    "about_me": "I am a final year student at ARS University Bandung majoring in Informatics Engineering, as a software engineer with 1.5+ years experience in application development. Experienced in developing software with a demonstrated work history in the technology industry. Mastering application development using Lumen framework, ExpressJs, ReactJs and React Native.",
     "name": "Hilman Fajri Fahriansyah",
     "role": "Software Developer",
     "social_media": [
-      {
-        "url": "https://www.facebook.com/hilman.fajri.9/",
-        "icon": "fab fa-facebook-f"
-      },
-      {
-        "url": "https://www.instagram.com/hilmanfjrsy/",
-        "icon": "fab fa-instagram"
-      },
       {
         "url": "http://linkedin.com/in/hilmanfjrsy",
         "icon": "fab fa-linkedin-in"
@@ -50,7 +42,7 @@
   },
   "experience": [
     {
-      "date": "Juli 2020 - Present",
+      "date": "July 2020 - Present",
       "title": "Software Developer",
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
@@ -58,7 +50,7 @@
       "description": "Build and develop Website, Android and iOS based applications using React Native and React JS framework"
     },
     {
-      "date": "Januari 2020 - Juli 2020",
+      "date": "January 2020 - July 2020",
       "title": "IT Support",
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
@@ -66,7 +58,7 @@
       "description": "Build a local company website using Laravel, Graphic Design, IT support, etc"
     },
     {
-      "date": "Januari 2018 - Juli 2019",
+      "date": "January 2018 - July 2019",
       "title": "CCTV technician",
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
@@ -79,7 +71,7 @@
       "icon": "fas fa-graduation-cap",
       "location": "ARS University",
       "color": "#007bff",
-      "description": "Bandung, Jawa Barat"
+      "description": "Bandung, West Java"
     },
     {
       "date": "2013 - 2016",
@@ -87,7 +79,7 @@
       "icon": "fas fa-graduation-cap",
       "location": "SMKN 2 Baleendah",
       "color": "#007bff",
-      "description": "Bandung, Jawa Barat"
+      "description": "Bandung, West Java"
     }
   ],
   "skills": [
@@ -107,21 +99,21 @@
       "skill": [
         "React Native",
         "ReactJs",
-        "ES6",
+        "NextJs",
+        "Javascript ES6",
         "API development with ExpressJs"
       ]
     },
     {
       "icon": "fas fa-ellipsis-h",
-      "color": "#37b3ed",
+      "color": "#A1A1A1",
       "title": "Others",
       "skill": [
         "SQL (MySQL, PostgreSQL)",
-        "Data Science with Python",
         "HTML/CSS",
         "Bootstrap",
         "Adobe XD",
-        "Desain Grafis"
+        "Graphic Design"
       ]
     }
   ],
@@ -149,15 +141,15 @@
   ],
   "awards": [
     {
-      "date": "23 Agustus 2021 - 23 Februari 2022",
+      "date": "23 August 2021 - 23 February 2022",
       "title": "React & React Native",
       "icon": "fas fa-laptop-code",
-      "color": "#173b6c",
+      "color": "#1774F1",
       "location": "Hacktiv8 Indonesia",
       "description": null
     },
     {
-      "date": "7 Juli 2021",
+      "date": "7 July 2021",
       "title": "Belajar Machine Learning untuk Pemula",
       "icon": "fas fa-award",
       "color": "#173b6c",
@@ -165,7 +157,7 @@
       "description": null
     },
     {
-      "date": "5 Juni 2021",
+      "date": "5 June 2021",
       "title": "Memulai Pemrograman Dengan Python",
       "icon": "fas fa-award",
       "color": "#173b6c",
