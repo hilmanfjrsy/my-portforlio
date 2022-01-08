@@ -18,8 +18,8 @@ export default class Timeline extends Component {
               >
                 <h3 className="vertical-timeline-element-title">{item.title}</h3>
                 <h5 className="vertical-timeline-element-subtitle">{item.location}</h5>
-                <p>
-                  {item.description}
+                <p dangerouslySetInnerHTML={{__html:item.description}}>
+                  {/* {item.description} */}
                 </p>
               </VerticalTimelineElement>
             // </div>

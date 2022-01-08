@@ -47,7 +47,7 @@
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
       "location": "PT. Millennia Solusi Informatika",
-      "description": "Build and develop Website, Android and iOS based applications using React Native and React JS framework"
+      "description": "<ul><li><div>Built and bug fix modern website applications with ReactJs, NextJs</div></li><li><div>Built and bug fix multiplatform mobile app bugs with React Native</div></li><li><div>Built microservices REST API with Lumen framework and ExpressJs</div></li></ul>"
     },
     {
       "date": "January 2020 - July 2020",
@@ -55,7 +55,7 @@
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
       "location": "PT. Bangun Anugerah Jaya Abadi",
-      "description": "Build a local company website using Laravel, Graphic Design, IT support, etc"
+      "description": "<ul><li><div>Maintenance Network, CCTV, Hardware IT, etc</div></li><li><div>Graphic Designer</div></li><li><div>Built a local company website using Laravel</div></li></ul>"
     },
     {
       "date": "January 2018 - July 2019",
@@ -63,7 +63,7 @@
       "icon": "fas fa-briefcase",
       "color": "#173b6c",
       "location": "PT. Danpra Perkasa Mandiri",
-      "description": "Build and maintain CCTV client infrastructure"
+      "description": "Build and maintain client CCTV infrastructure for office, home, etc"
     },
     {
       "date": "2018 - Present",
